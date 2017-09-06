@@ -23,6 +23,7 @@
 docker run  -it --rm -p 4000:4000 --name femn-hexo  \
     -v /home/femn/.ssh:/home/femn/.ssh \
     -v /home/femn/blog/source:/home/femn/blog/source \
+    -v /home/femn/blog/_config.yml:/home/femn/blog/_config.yml \
     -v /home/femn/blog/README.md:/home/femn/blog/README.md \
     -v /home/femn/blog/deploy/leipengkai.github.io:/home/femn/blog/deploy/leipengkai.github.io \
     femn/hexo sh -l
