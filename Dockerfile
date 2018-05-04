@@ -69,6 +69,7 @@ RUN \
 
 USER $USERNAME 
 
+WORKDIR $HOME/blog
 # COPY docker-entrypoint.sh /docker-entrypoint.sh
 # ENTRYPOINT ["/bin/sh", "-c","/docker-entrypoint.sh"]
 

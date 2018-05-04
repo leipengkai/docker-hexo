@@ -34,3 +34,12 @@ http://localhost:4000
 
 #### 缺点
 由于本人能力有限，此镜像只是针对本人使用,但个人觉得Dockerfile,可以供新手参考.
+
+#### 本人使用
+```bash
+# 在容器中使用
+hexo g # 生成静态文件
+hexo s # 启动服务
+sh ./update_blog.sh "xx"  # 将博客上传到github上
+# 再手动将~/blog(将不会有github内容) 上传到gitlab上
+```
